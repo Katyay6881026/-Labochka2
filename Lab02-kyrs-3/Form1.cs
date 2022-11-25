@@ -18,7 +18,7 @@ namespace Lab02_kyrs_3
             InitializeComponent();
         }
 
-        private void button_XOR_Click(object sender, EventArgs e)
+        private void button_XOR_Click(object sender,  EventArgs e)
         {
             string strP = textBox_P.Text;
             int intP = Convert.ToInt32(strP, 2);
